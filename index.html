@@ -1,39 +1,55 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite App</title>
 
-    <link rel="stylesheet" href="/src/style.css">
-  </head>
-  <body>
-    <main class="w-screen h-screen">
-      <div class="plant bg-emerald-600">
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Vite App</title>
 
-        <button class= "cursor-pointer"> plant </button>
+  <link rel="stylesheet" href="/src/style.css">
+</head>
 
-      </div>
+<body>
+  <main class="w-screen h-screen">
+    <div class="plant flex justify-center items-center">
+      
 
-      <div class="sun bg-amber-300">
-        <button class= "cursor-pointer"> sun </button>
-        
-      </div>
-      <div class="purchase bg-indigo-400">
+      <button class="cursor-pointer translate-y-20 active:scale-125 transition-transform"> <img src="/src/Plant2.png" alt=""> </button>
 
-      </div>
+    </div>
 
-      <div class="upgrade bg-emerald-100">
-  
+    <div class="sun">
 
-      </div>
+      <button class="cursor-pointer"><img src="/src/Asun.png"></button>
 
-      <div class="counter bg-slate-500">
-        
-      </div>
-    </main>
+    </div>
+    <div class="purchase">
 
-    <script type="module" src="/src/main.js"></script>
-  </body>
+    </div>
+
+    <div class="upgrades">
+    
+<button class="upgrade1">
+<img src="/src/halfgrownplant.webp">
+<h2>Half Grown</h2>
+<p>100 Clicks</p>
+</button>
+ </div>
+
+    <button class="upgrade2">
+<img src="/src/fulltree.png" height="140">
+<h2>Fully Grown</h2>
+<p>1000 Clicks</p>
+    </button>
+  </div>
+
+    <div class="counter">
+
+    </div>
+  </main>
+
+  <script type="module" src="/src/main.js"></script>
+</body>
+
 </html>
