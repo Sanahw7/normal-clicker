@@ -13,9 +13,10 @@
 <body>
   <main class="w-screen h-screen">
     <div class="plant flex justify-center items-center">
-      
 
-      <button class="cursor-pointer translate-y-20 active:scale-125 transition-transform"> <img src="/src/Plant2.png" alt=""> </button>
+
+      <button onclick="bigClick()" class="cursor-pointer translate-y-20 active:scale-125 transition-transform"> <img
+          src="/src/Plant2.png" alt=""> </button>
 
     </div>
 
@@ -28,21 +29,21 @@
 
     </div>
 
-    <div class="upgrades">
-    
-<button class="upgrade1">
-<img src="/src/halfgrownplant.webp">
-<h2>Half Grown</h2>
-<p>100 Clicks</p>
-</button>
- </div>
+    <div class="upgrades flex">
+      <button class="upgrade1">
+        <img src="/src/halfgrownplant.webp">
+        <h2>Half Grown</h2>
+        <h3 id="upgrade1Level">Level 00</h3>
+        <p>100 Clicks</p>
+      </button>
 
-    <button class="upgrade2">
-<img src="/src/fulltree.png" height="140">
-<h2>Fully Grown</h2>
-<p>1000 Clicks</p>
-    </button>
-  </div>
+      <button class="upgrade2" >
+        <img src="/src/fulltree.png" height="140">
+        <h2 id="upgradeLevel2">Fully Grown</h2>
+        <p>1000 Clicks</p>
+      </button>
+
+    </div>
 
     <div class="counter">
 
